@@ -1,6 +1,12 @@
 name: Web APIs CI
 
-on: [push, pull_request]
+on:
+  push:
+    branches:
+      - main
+  pull_ruquest:
+    branches:
+      - *
 
 jobs:
   ci:
@@ -29,4 +35,4 @@ jobs:
       uses: coverallsapp/github-action@master
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
-        path-to-lcov: ./coverage/common/lcov.info
+        path-to-lcov: ./coverage/storage/lcov.info
