@@ -1,0 +1,69 @@
+/* Base demo styles */
+body,
+html {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 100%;
+    font-size: 16px;
+    font-family: Roboto, 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial,
+        'Lucida Grande', sans-serif;
+    color: #444;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 10px;
+    box-sizing: border-box;
+    border-bottom: 1px solid gainsboro;
+}
+
+header h1 {
+    line-height: 1;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+footer {
+    padding: 16px;
+    font-size: 12px;
+    border-top: 1px solid gainsboro;
+    background: white;
+    text-align: center;
+}
+
+footer svg {
+    vertical-align: -2px;
+}
+
+a {
+    color: #1976d2;
+    text-decoration: none;
+}
+
+.logo {
+    margin-right: 20px;
+}
+
+tui-root {
+    padding: 0 24px;
+}
+
+tui-root tui-scroll-controls {
+    display: none;
+}

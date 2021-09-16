@@ -1,0 +1,28 @@
+{
+    "name": "@ng-web-apis/storage",
+    "version": "1.0.0",
+    "peerDependencies": {
+        "@angular/core": ">=9.0.0",
+        "@ng-web-apis/common": ">=1.9.0",
+        "rxjs": ">=6.0.0"
+    },
+    "description": "A library to use Web Storage API with Observables",
+    "keywords": [
+        "angular",
+        "ng",
+        "storage",
+        "localstorage",
+        "sessionstorage",
+        "rxjs",
+        "observable"
+    ],
+    "license": "MIT",
+    "author": {
+        "name": "Alexander Inkin",
+        "email": "alexander@inkin.ru"
+    },
+    "contributors": ["Roman Sedov <79601794011@ya.ru>"],
+    "repository": "https://github.com/ng-web-apis/storage",
+    "bugs": "https://github.com/ng-web-apis/storage/issues",
+    "homepage": "https://github.com/ng-web-apis/storage#README"
+}
