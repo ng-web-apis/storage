@@ -6,7 +6,7 @@ on:
       - main
   pull_ruquest:
     branches:
-      - *
+      - main
 
 jobs:
   ci:
